@@ -1,0 +1,14 @@
+.paralax-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://images.unsplash.com/photo-1549582100-d67ab35b3507?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

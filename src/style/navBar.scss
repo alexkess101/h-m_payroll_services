@@ -1,0 +1,12 @@
+.navbar-container{
+    height: 50px;
+    background-color: rgba($color: black, $alpha: 0.4);
+    position: fixed;
+    .navbar-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        
+
+    }
+}

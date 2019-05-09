@@ -1,0 +1,194 @@
+import React, {Component} from 'react';
+
+import Navbar from './navbar';
+import Contact from './contact';
+
+export default class Homepage extends Component {
+    constructor() {
+        super();
+    
+    }
+
+    render() {
+        return (
+            <div className="homepage-container">
+                <Navbar/>
+                <div className="paralax-wrapper">    
+                    <div className="logo">
+                        this is the logo
+                    </div>
+                </div>
+
+                <div className="information-wrapper1">
+                    <div className="title-wrapper">
+                        <div className="text">
+                            Our Happy Customers
+                        </div>
+                    </div>
+
+                    <div className="image-wrapper">
+                        <div className="background-image-wrapper">
+                            <div className="image-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia!
+                            </div>
+                        </div>
+                        
+                        <div className="background-image-wrapper">
+                            <div className="image-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia!
+                            </div>
+                        </div>
+
+                        <div className="background-image-wrapper">
+                            <div className="image-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia!
+                            </div>
+                        </div>
+
+                        <div className="background-image-wrapper">
+                            <div className="image-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia!
+                            </div>
+                        </div>
+
+                        <div className="background-image-wrapper">
+                            <div className="image-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia!
+                            </div>
+                        </div>
+
+                        <div className="background-image-wrapper">
+                            <div className="image-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia!
+                            </div>
+                        </div>
+
+                        <div className="background-image-wrapper">
+                            <div className="image-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia!
+                            </div>
+                        </div>
+
+                        <div className="background-image-wrapper">
+                            <div className="image-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia!
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div className="information-wrapper2">
+                    <div className="unique-box">
+                        <img src="#" alt=""/>
+
+                        <div className="wrapper">
+                            <div className="title-text">
+                                Lorem, ipsum dolor.
+                            </div>
+
+                            <div className="text-box">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. At voluptatem labore rerum? Repudiandae rem, obcaecati quisquam molestiae iste tempore tenetur?
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div className="unique-box">
+                        <div className="text-box">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ea ab harum numquam laboriosam excepturi perferendis quisquam cumque eius pariatur.
+                        </div>
+                        <img src="#" alt=""/>
+                    </div>
+
+                    <div className="unique-box">
+                        <img src="#" alt=""/>
+                        <div className="text-box">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolorem accusamus aliquam placeat voluptates perspiciatis ullam sapiente pariatur nihil quisquam.
+                        </div>
+                    </div>
+
+                    <div className="unique-box">
+                        <div className="text-box">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quod quibusdam id eaque debitis accusamus, veniam magnam voluptate. Nemo, architecto!
+                        </div>
+                        <img src="#" alt=""/>
+                    </div>
+
+                </div>
+                
+                <div className="information-wrapper3">
+                    
+                </div>
+
+                <div className="information-wrapper4">
+                    <div className="title-wrapper">
+                        Get to know our team!
+                    </div>
+
+                    <div className="bio-image-wrapper">
+                        <img src="#" alt=""/>
+                    </div>
+
+                    <div className="bio-wrapper">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam natus labore recusandae placeat at adipisci dicta. Dolor officiis unde expedita.
+                    </div>
+
+                    <div className="bio-image-wrapper">
+                        <img src="#" alt=""/>
+                    </div>
+
+                    <div className="bio-wrapper">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem, officiis, harum ex enim repellendus corporis animi quisquam consequatur dignissimos ducimus in minus?
+                    </div>
+                </div>
+
+                <div className="information-wrapper5">
+                    <div className="title-wrapper">
+                        Testimonials
+                    </div>
+
+                    <div className="testimonial">
+                        <div className="testimonail-name">
+                            John Sanchez
+                        </div>
+                        <div className="quote">
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis porro veritatis dolor natus aspernatur totam voluptatem non accusamus voluptatibus soluta culpa ipsa, inventore ea velit!"
+                        </div>
+                    </div>
+
+                    <div className="testimonial">
+                        <div className="testimonail-name">
+                            Julian Bakersfieldsmithston
+                        </div>
+                        <div className="quote">
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis porro veritatis dolor natus aspernatur totam voluptatem non accusamus voluptatibus soluta culpa ipsa, inventore ea velit!"
+                        </div>
+                    </div>
+
+                    <div className="testimonial">
+                        <div className="testimonail-name">
+                            Edwardo Sanchez
+                        </div>
+                        <div className="quote">
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis porro veritatis dolor natus aspernatur totam voluptatem non accusamus voluptatibus soluta culpa ipsa, inventore ea velit!"
+                        </div>
+                    </div>
+
+                    <div className="testimonial">
+                        <div className="testimonail-name">
+                            Jimmy Sanchez
+                        </div>
+                        <div className="quote">
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis porro veritatis dolor natus aspernatur totam voluptatem non accusamus voluptatibus soluta culpa ipsa, inventore ea velit!"
+                        </div>
+                    </div>
+                </div>
+
+                <Contact/>
+
+                <div className="footer">This is the footer</div>
+
+            </div>
+        )
+    }
+}
