@@ -3,5 +3,8 @@ body, * {
     padding: 0px;
 }
 
+@import './global.scss';
 @import './navBar.scss';
 @import './paralax.scss';
+@import './wrapper_one.scss';
+@import './wrapper_two.scss';

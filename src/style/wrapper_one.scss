@@ -1,0 +1,21 @@
+.information-wrapper1 {
+    .title-wrapper {
+        background-color: $background;
+        height: 65px;
+        @include center;
+
+        .text {
+            color: white;
+        }
+    }
+
+    .image-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+        .background-image-wrapper {
+            height: 300px;
+        }
+    }
+}

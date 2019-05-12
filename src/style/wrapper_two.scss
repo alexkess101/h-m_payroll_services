@@ -1,0 +1,70 @@
+.information-wrapper2 {
+    @include center;
+    background-color: $background;
+    color: white;
+
+    .unique-box {
+        display: flex;
+
+        .text-box {
+            @include center;
+        }
+
+
+        .text-box {
+            width: 50vw;;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    }
+}
+
+
+.information-wrapper3 {
+
+}
+
+.information-wrapper4 {
+    @include center;
+    background-color: $background;
+    color: white;
+
+    .title-wrapper {
+        height: 60px;
+
+    }
+    
+    .bio-container {
+        display: flex;
+        
+        .saftey {
+            @include center;
+            width: 400px;
+
+            .bio-wrapper {
+                width: 300px;
+                position: absolute;
+                text-align: center;
+            }
+        }
+
+        img {
+            width: 300px;
+        }
+    }
+    
+}
+
+.information-container5 {
+    @include center;
+    background-color: $background;
+    color: white;
+    
+    .information-wrapper5 {
+        width: 80vw;
+    }
+}
