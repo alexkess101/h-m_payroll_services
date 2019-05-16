@@ -1,0 +1,26 @@
+.contact-container {
+    @include center;
+    
+
+    .contact-wrapper {
+        @include center;
+
+        .the-goods {
+            display: flex;
+
+            .left-side {
+                width: 100px;
+
+            }
+    
+            .right-side {
+    
+                form {
+                    @include center;
+                }
+            }
+        }
+
+
+    }
+}

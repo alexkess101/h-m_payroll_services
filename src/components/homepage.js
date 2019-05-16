@@ -194,7 +194,7 @@ export default class Homepage extends Component {
 
                 <Contact/>
 
-                <div className="footer">This is the footer</div>
+                <div className="footer"></div>
 
             </div>
         )

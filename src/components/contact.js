@@ -57,7 +57,7 @@ export default class  extends Component {
 
                     <div className="the-goods">
                         <div className="left-side">
-                        
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quam sunt vero asperiores, dicta optio!
                         </div>
 
                         <div className="right-side">
