@@ -65,7 +65,7 @@ export default class  extends Component {
                                 <input type="text" name="name" value={this.name} onChange={this.handleName} placeholder="Name"/>
                                 <input type="email" name="email" value={this.email} onChange={this.handleEmail} placeholder="Email"/>
                                 <input type="text" name="subject" value={this.subject} onChange={this.handleSubject} placeholder="Subject"/>
-                                <textarea name="message" value={this.message} onChange={this.handleMessage} placeholder="message"></textarea>
+                                <textarea name="message" value={this.message} onChange={this.handleMessage} placeholder="Message"></textarea>
                                 <button type="submit">Submit</button>
                             </form>
                         </div>

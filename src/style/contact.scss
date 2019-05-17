@@ -4,19 +4,55 @@
 
     .contact-wrapper {
         @include center;
+        margin-top: 30px;
+
+        .title {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
 
         .the-goods {
             display: flex;
 
             .left-side {
-                width: 100px;
+                width: 300px;
 
             }
     
             .right-side {
-    
+                width: 600px;
                 form {
                     @include center;
+
+                    input {
+                        width: 300px;
+                        height: 40px;
+                        margin-bottom: 12px;
+                        padding-left: 10px;
+                    }
+
+                    textarea {
+                        width: 300px;
+                        height: 100px;
+                        padding-left: 10px;
+                    }
+
+                    button {
+                        background-color: transparent;
+                        margin-top: 20px;
+                        margin-bottom: 25px;
+                        width: 100px;
+                        height: 30px;
+                        border: 1px solid black;
+
+                        &:focus {
+                            outline: none;
+                            background-color: $background;
+                            color: white;
+                            border: 1px solid $background;
+                        }
+                    }
                 }
             }
         }
