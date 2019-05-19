@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { Controller, Scene } from 'react-scrollmagic';
+import { Timeline, Tween } from 'react-gsap';
 
 export default class Navbar extends Component {
     constructor() {

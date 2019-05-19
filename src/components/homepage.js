@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-
+import { Controller, Scene } from 'react-scrollmagic';
 import Navbar from './navbar';
 import Contact from './contact';
+import { Timeline, Tween } from 'react-gsap';
 
 export default class Homepage extends Component {
     constructor() {
@@ -13,14 +14,27 @@ export default class Homepage extends Component {
         return (
             <div className="homepage-container">
                 <Navbar/>
-                <div className="paralax-wrapper">    
-                    <div className="logo">
-                        this is the logo
-                    </div>
+                <div className="paralax-wrapper">
+                
+                <Controller>
+                    <Scene classToggle={['.logo', 'show']} triggerElement={"#trigger"} reverse={false}>
+                        <Timeline>
+                            <Tween
+                                from={{top: '52%'}}
+                                to={{top:'50%'}}
+                            >
+                            <div className="logo">
+                                this is the logo
+                            </div>
+                            </Tween>
+                        </Timeline>
+                    </Scene>
+                </Controller>
                 </div>
 
                 <div className="information-wrapper1">
                     <div className="title-wrapper">
+                    
                         <div className="text">
                             Our Happy Customers
                         </div>
