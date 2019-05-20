@@ -22,6 +22,7 @@ export default class Homepage extends Component {
                             <Tween
                                 from={{top: '52%'}}
                                 to={{top:'50%'}}
+                                
                             >
                             <div className="logo">
                                 this is the logo

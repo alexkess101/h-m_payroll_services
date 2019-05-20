@@ -1,12 +1,35 @@
 .navbar-container{
-    height: 50px;
+    height: 60px;
     background-color: rgba($color: black, $alpha: 0.4);
     position: fixed;
+
     .navbar-wrapper {
+        height: 100%;
         display: flex;
-        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 80px;
         width: 100vw;
         
+        .links-wrapper {
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                width: 100px;
+            }
+        }
+
+        .social-media-wrapper {
+            width: 150px;
+            display: flex;
+            justify-content: space-around;
+
+            img {
+                width: 30px;
+            }
+        }
 
     }
 }
