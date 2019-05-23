@@ -19,6 +19,15 @@
             img {
                 width: 100px;
             }
+
+            .link {
+                opacity: 0;
+                transition: 1s ease-in;
+            }
+
+            .show {
+                opacity: 1;
+            }
         }
 
         .social-media-wrapper {

@@ -17,15 +17,14 @@ export default class Homepage extends Component {
                 <div className="paralax-wrapper">
                 
                 <Controller>
-                    <Scene classToggle={['.logo', 'show']} triggerElement={"#trigger"} reverse={false}>
+                    <Scene classToggle={['.logo', 'show']} reverse={false}>
                         <Timeline>
                             <Tween
                                 from={{top: '52%'}}
                                 to={{top:'50%'}}
-                                
                             >
                             <div className="logo">
-                                this is the logo
+                                <img src="https://res-console.cloudinary.com/akbottega/thumbnails/v1/image/upload/v1558654450/SE0=/grid" alt="logo"/>
                             </div>
                             </Tween>
                         </Timeline>

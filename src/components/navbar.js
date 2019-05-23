@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Timeline, Tween } from 'react-gsap';
+import { TweenMax } from 'gsap';
 import { Link, Events, scrollSpy } from 'react-scroll';
 
 export default class Navbar extends Component {
@@ -30,13 +31,28 @@ export default class Navbar extends Component {
         return (
             <div className='navbar-container'>
                 <div className="navbar-wrapper">
-                    <div className="links-wrapper">
-                        <img src="#" alt="logo"/>
-                        <Link activeClass="active" className="link" to="Link 1" spy={true} smooth={true} duration={500} >Link 1</Link>
-                        <Link activeClass="active" className="link" to="Link 2" spy={true} smooth={true} duration={500} >Link 2</Link>
-                        <Link activeClass="active" className="link" to="Link 3" spy={true} smooth={true} duration={500} >Link 3</Link>
-                        <Link activeClass="active" className="link" to="Link 4" spy={true} smooth={true} duration={500} >Link 4</Link>
-                    </div>
+                    <Controller>
+                        <Scene classToggle={['.link', 'show']}>
+                            <Timeline>
+                                <Tween 
+                                    wrapper={
+                                        <div className="links-wrapper" />
+                                    }
+
+                                    staggerFrom={{
+                                        left: -50
+                                    }}
+                                >
+                                    <img src="#" alt="logo"/>
+                                    <Link activeClass="active" className="link" to="Link 1" spy={true} smooth={true} duration={500} >Link 1</Link>
+                                    <Link activeClass="active" className="link" to="Link 2" spy={true} smooth={true} duration={500} >Link 2</Link>
+                                    <Link activeClass="active" className="link" to="Link 3" spy={true} smooth={true} duration={500} >Link 3</Link>
+                                    <Link activeClass="active" className="link" to="Link 4" spy={true} smooth={true} duration={500} >Link 4</Link>
+                                </Tween>
+                            </Timeline>
+                            
+                        </Scene>
+                    </Controller>
 
                     <div className="social-media-wrapper">
                         <a href="#"><img src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" alt="insta-logo"/></a>
