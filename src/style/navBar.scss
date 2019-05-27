@@ -1,5 +1,5 @@
 .navbar-container{
-    height: 60px;
+    height: 70px;
     background-color: rgba($color: black, $alpha: 0.4);
     position: fixed;
 
@@ -17,15 +17,19 @@
             justify-content: space-between;
 
             img {
-                width: 100px;
+                margin-top: 4px;
+                width: 70px;
+                height: 70px;
+
             }
 
             .link {
                 opacity: 0;
+                @include center;
                 transition: 1s ease-in;
             }
 
-            .show {
+            .reveal {
                 opacity: 1;
             }
         }

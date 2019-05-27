@@ -38,6 +38,7 @@ export default class Homepage extends Component {
                         <div className="text">
                             Our Happy Customers
                         </div>
+                        <div id="trigger"/>
                     </div>
 
                     <div className="image-wrapper">
