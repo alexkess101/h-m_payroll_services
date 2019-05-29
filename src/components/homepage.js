@@ -3,6 +3,7 @@ import { Controller, Scene } from 'react-scrollmagic';
 import Navbar from './navbar';
 import Contact from './contact';
 import { Timeline, Tween } from 'react-gsap';
+import { NavLink } from 'react-router-dom';
 
 export default class Homepage extends Component {
     constructor() {
@@ -37,6 +38,7 @@ export default class Homepage extends Component {
                     
                         <div className="text">
                             Our Happy Customers
+                            <NavLink exact to='/'>Home</NavLink>
                         </div>
                         <div id="trigger"/>
                     </div>
