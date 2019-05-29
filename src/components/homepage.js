@@ -25,7 +25,7 @@ export default class Homepage extends Component {
                                 to={{top:'50%'}}
                             >
                             <div className="logo">
-                                <img src="https://res-console.cloudinary.com/akbottega/thumbnails/v1/image/upload/v1558654450/SE0=/grid" alt="logo"/>
+                                <img src="https://res.cloudinary.com/akbottega/image/upload/v1558654450/HM.png" alt="logo"/>
                             </div>
                             </Tween>
                         </Timeline>
