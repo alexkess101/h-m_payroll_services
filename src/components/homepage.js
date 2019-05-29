@@ -38,7 +38,7 @@ export default class Homepage extends Component {
                     
                         <div className="text">
                             Our Happy Customers
-                            <NavLink exact to='/'>Home</NavLink>
+                            
                         </div>
                         <div id="trigger"/>
                     </div>
